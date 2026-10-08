@@ -1,0 +1,1 @@
+var e=[0,300,900,2700,6500,14e3,23e3,34e3,48e3,64e3,85e3,1e5,12e4,14e4,165e3,195e3,225e3,265e3,305e3,355e3];function t(t){let n=1;return e.forEach((e,r)=>{t>=e&&(n=r+1)}),n}function n(n,r){let i=t(n),a=i>=20?null:e[i];return{reachedLevel:i,nextLevelAt:a,missing:a===null?0:a-n,canLevelUp:r>0&&r<20&&i>r}}export{n,t};

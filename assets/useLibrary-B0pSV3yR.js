@@ -1,0 +1,1 @@
+import{tt as e}from"./_plugin-vue_export-helper-D9lXnfVU.js";import{t}from"./store-CLpkyYMD.js";function n(){let n=t();return{store:n,library:e(()=>({get:e=>n.byId.get(e)})),ready:e(()=>n.status===`ready`),ensureLoaded:()=>n.ensureLoaded()}}export{n as t};

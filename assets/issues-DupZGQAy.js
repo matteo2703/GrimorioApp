@@ -1,0 +1,1 @@
+function e(e,t,n,r){let i=`player.warn.${e.code}`;if(!n(i))return e.message;let a={...e.params};return typeof a.ability==`string`&&(a.ability=t(`player.abilities.${a.ability}`)),a.name===void 0&&typeof a.id==`string`&&(a.name=r?.(a.id)??a.id),t(i,a)}export{e as t};
